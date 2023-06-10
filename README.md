@@ -17,3 +17,8 @@ Run the following command to edit your user's crontab file.
 ```
    export BACKUP_PATH="/path/to/backup/files"
 ```
+4. Demonstrated work with branches. Sample PR created
+## Practice_2
+Screenshot of created AWS acc added to the package
+## Practice_3
+Created bash script for AWS to install docker daemon in EC2

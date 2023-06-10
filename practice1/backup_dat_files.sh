@@ -5,7 +5,7 @@ backup_path=$BACKUP_PATH
 
 # Check if the backup path is set
 if [ -z "$backup_path" ]; then
-  echo "Backup path is not set. Please set the BACKUP_PATH environment variable."
+  echo "Backup path is not set. Please set the BACKUP_PATH environment variable!!!"
   exit 1
 fi
 

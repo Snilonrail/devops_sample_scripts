@@ -1,0 +1,16 @@
+version: '3.5'
+
+services:
+  nginx:
+    image: nginx:latest
+    container_name: nginx-lab1
+    ports:
+      - "8061:80"
+
+  nginx-monitoring:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nginx-monitoring-lab1
+    volumes:
+      - ./logs:/logs
